@@ -25,6 +25,8 @@ let track = document.createElement('audio');
 
 //All songs list
 let All_song = [{
+			
+	// Hindi Songs
 		name: "Dil Dhadakne Do",
 		path: "Songs/Dil Dhadakne Do.mp3",
 		img: "Songs/Song1.jpg",
@@ -49,22 +51,10 @@ let All_song = [{
 		singer: "Pritam"
 	},
 	{
-		name: "Levels",
-		path: "Songs/levels.mp3",
-		img: "Songs/levels.jpg",
-		singer: "Sidhu Mosse Wala"
-	},
-	{
 		name: "Subhanallah",
 		path: "Songs/subhanallah.mp3",
 		img: "Songs/subhanallah.jpg",
 		singer: "Pritam"
-	},
-	{
-		name: "Violence",
-		path: "Songs/Violence.mp3",
-		img: "Songs/Violence.jpg",
-		singer: "Varinder Brar"
 	},
 	{
 		name: "Chand Baaliyan",
@@ -72,118 +62,70 @@ let All_song = [{
 		img: "Chand Baaliyan.jpg",
 		singer: "Aditya A"
 	},
-	
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
-	{
-		name: "Subhanallah",
-		path: "Songs/subhanallah.mp3",
-		img: "Songs/subhanallah.jpg",
-		singer: "Pritam"
-	},
+		// English Songs
+		{
+			name: "Shapeofyou",
+			path: "Songs/English/Shapeofyou.mp3",
+			img: "Songs/English/Shapeofyou.jpg",
+			singer: "Pritam, Arijit Singh"
+		},
+		{
+			name: "Khairiyat",
+			path: "Songs/Khairiyat.mp3",
+			img: "Songs/Khairiyat.jpg",
+			singer: "Pritam, Arijit Singh"
+		},
+		{
+			name: "Khairiyat",
+			path: "Songs/Khairiyat.mp3",
+			img: "Songs/Khairiyat.jpg",
+			singer: "Pritam, Arijit Singh"
+		},
+		{
+			name: "Khairiyat",
+			path: "Songs/Khairiyat.mp3",
+			img: "Songs/Khairiyat.jpg",
+			singer: "Pritam, Arijit Singh"
+		},
+		{
+			name: "Khairiyat",
+			path: "Songs/Khairiyat.mp3",
+			img: "Songs/Khairiyat.jpg",
+			singer: "Pritam, Arijit Singh"
+		},
 
-
-
-
+	
+		// Punjabi Songs
+	{
+		name: "295",
+		path: "Songs/Punjabi/295.mp3",
+		img: "Songs/Punjabi/295.jpg",
+		singer: "Sidhu Mosse Wala"
+	},
+	{
+		name: "Spain",
+		path: "Songs/Punjabi/Spain.mp3",
+		img: "Songs/Punjabi/Spain.jpg",
+		singer: "Jassa Dhillon"
+	},
+	{
+		name: "Notorious",
+		path: "Songs/Punjabi/Notorious.mp3",
+		img: "Songs/Punjabi/Notorious.jpg",
+		singer: "Jassa Dhillon"
+	},
+	{
+		name: "Levels",
+		path: "Songs/Punjabi/levels.mp3",
+		img: "Songs/Punjabi/levels.jpg",
+		singer: "Sidhu Mosse Wala"
+	},
+	{
+		name: "Thaa",
+		path: "Songs/Punjabi/Thaa.mp3",
+		img: "Songs/Punjabi/Thaa.jpg",
+		singer: "Varinder Brar"
+	},
 ];
 
 
